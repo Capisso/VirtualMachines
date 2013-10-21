@@ -1,0 +1,23 @@
+{
+    "name": "capisso/virtual-machines",
+    "description": "",
+    "authors": [
+        {
+            "name": "Luke Strickland",
+            "email": "luke@axxim.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Capisso\\VirtualMachines": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
